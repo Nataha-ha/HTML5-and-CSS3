@@ -16,3 +16,11 @@ function play() {
         button.className = "video-play-btn";
     }
 }
+
+let buttonBurger = document.querySelector('.burger-menu');
+let nav = document.querySelector('nav');
+
+buttonBurger.onclick = function () {
+    nav.classList.toggle('open');
+    nav.classList.toggle('close');
+}
