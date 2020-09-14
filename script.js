@@ -18,7 +18,8 @@ function play() {
 }
 
 let buttonBurger = document.querySelector('.burger-menu');
-let nav = document.querySelector('nav');
+let nav = document.querySelector('.modal');
+
 
 buttonBurger.onclick = function () {
     nav.classList.toggle('open');
